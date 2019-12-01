@@ -29,7 +29,6 @@ body {
     transform: translateX(-50%);
   }
   
-  // home button indicator
   &:after {
     bottom: 7px;
     width: 140px;
@@ -38,7 +37,6 @@ body {
     border-radius: 10px;
   }
   
-  // frontal camera/speaker frame
   &:before {
     top: 0px;
     width: 56%;
@@ -47,7 +45,6 @@ body {
     border-radius: 0px 0px 40px 40px;
   }
   
-  // speaker
   #speaker {
     position: absolute;
     top: 0px;
@@ -61,7 +58,6 @@ body {
     box-shadow: inset 0px -3px 3px 0px rgba(256, 256, 256, 0.2);
   }
   
-  // camera
   #camera {
     position: absolute;
     left: 10%;
